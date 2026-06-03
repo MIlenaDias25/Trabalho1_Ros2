@@ -51,11 +51,7 @@ Quando essas condições são satisfeitas, o robô retorna ao objetivo principal
 ```
 https://github.com/MIlenaDias25/Trabalho1_Ros2.git
 ```
-Acesse o diretório principal
 
-```
-ros2_ws
-```
 ### 2. Compile no workspace ROS2
 
 ```
