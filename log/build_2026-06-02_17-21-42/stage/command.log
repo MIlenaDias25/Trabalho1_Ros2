@@ -1,0 +1,4 @@
+Invoking command in '/home/milena/ros2_ws/build/stage': ROS_DOMAIN_ID=32 /usr/bin/cmake --build /home/milena/ros2_ws/build/stage -- -j12 -l12
+Invoked command in '/home/milena/ros2_ws/build/stage' returned '0': ROS_DOMAIN_ID=32 /usr/bin/cmake --build /home/milena/ros2_ws/build/stage -- -j12 -l12
+Invoking command in '/home/milena/ros2_ws/build/stage': ROS_DOMAIN_ID=32 /usr/bin/cmake --install /home/milena/ros2_ws/build/stage
+Invoked command in '/home/milena/ros2_ws/build/stage' returned '0': ROS_DOMAIN_ID=32 /usr/bin/cmake --install /home/milena/ros2_ws/build/stage

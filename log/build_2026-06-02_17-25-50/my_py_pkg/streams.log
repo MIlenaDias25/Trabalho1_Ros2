@@ -1,0 +1,38 @@
+[0.436s] Invoking command in '/home/milena/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/milena/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/milena/ros2_ws/build/my_py_pkg/build install --record /home/milena/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.587s] running egg_info
+[0.587s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.588s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.588s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.588s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.588s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.589s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.589s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.589s] running build
+[0.589s] running build_py
+[0.590s] copying my_py_pkg/robot_navigator.py -> /home/milena/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.590s] running install
+[0.590s] running install_lib
+[0.591s] copying /home/milena/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_navigator.py -> /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.591s] byte-compiling /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_navigator.py to robot_navigator.cpython-310.pyc
+[0.592s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (robot_navigator.py, line 183)
+[0.592s] running install_data
+[0.592s] running install_egg_info
+[0.593s] removing '/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.593s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.594s] running install_scripts
+[0.607s] Installing add_two_ints script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing add_two_ints_client script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing number_publisher script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing publisher script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing publisher_1 script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing py_node script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing robot_navigator script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing robot_navigator2 script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.608s] Installing robot_navigator3 script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.608s] Installing robot_navigator_VFH script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.608s] Installing robot_navigator_completo script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.608s] Installing robot_navigator_waypoints script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.608s] Installing subscriber script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.608s] Installing trabalho script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.608s] writing list of installed files to '/home/milena/ros2_ws/build/my_py_pkg/install.log'
+[0.624s] Invoked command in '/home/milena/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/milena/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/milena/ros2_ws/build/my_py_pkg/build install --record /home/milena/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

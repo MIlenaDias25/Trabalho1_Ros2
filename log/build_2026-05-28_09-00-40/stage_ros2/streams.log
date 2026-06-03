@@ -1,0 +1,35 @@
+[0.177s] Invoking command in '/home/milena/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=57 /usr/bin/cmake /home/milena/ros2_ws/src/stage_ros2 -DOpenGL_GL_PREFERENCE=LEGACY -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/milena/ros2_ws/install/stage_ros2
+[0.187s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.304s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.309s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.327s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.329s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.333s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.340s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.369s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.369s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.458s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.490s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.502s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.535s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.569s] -- Configuring incomplete, errors occurred!
+[0.569s] See also "/home/milena/ros2_ws/build/stage_ros2/CMakeFiles/CMakeOutput.log".
+[0.572s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[0.573s]   By not providing "Findstage.cmake" in CMAKE_MODULE_PATH this project has
+[0.573s]   asked CMake to find a package configuration file provided by "stage", but
+[0.573s]   CMake did not find one.
+[0.573s] 
+[0.573s]   Could not find a package configuration file provided by "stage" with any of
+[0.573s]   the following names:
+[0.573s] 
+[0.573s]     stageConfig.cmake
+[0.573s]     stage-config.cmake
+[0.573s] 
+[0.573s]   Add the installation prefix of "stage" to CMAKE_PREFIX_PATH or set
+[0.574s]   "stage_DIR" to a directory containing one of the above files.  If "stage"
+[0.574s]   provides a separate development package or SDK, be sure it has been
+[0.574s]   installed.
+[0.574s] 
+[0.574s] [0m
+[0.591s] Invoked command in '/home/milena/ros2_ws/build/stage_ros2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble ROS_DOMAIN_ID=57 /usr/bin/cmake /home/milena/ros2_ws/src/stage_ros2 -DOpenGL_GL_PREFERENCE=LEGACY -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/milena/ros2_ws/install/stage_ros2

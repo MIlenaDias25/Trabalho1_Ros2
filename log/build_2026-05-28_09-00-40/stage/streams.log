@@ -1,0 +1,71 @@
+[0.176s] Invoking command in '/home/milena/ros2_ws/build/stage': ROS_DOMAIN_ID=218 /usr/bin/cmake /home/milena/ros2_ws/src/Stage -DOpenGL_GL_PREFERENCE=LEGACY -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/milena/ros2_ws/install/stage
+[0.183s] -- Stage version 4.3.0
+[0.183s] -- Operating system is Linux
+[0.184s] -- Installing Libraries to /home/milena/ros2_ws/install/stage/lib
+[0.184s] -- Installing Plugins to /home/milena/ros2_ws/install/stage/lib/Stage-4.3
+[0.184s] -- Build type RELEASE
+[0.184s] -- Checking for libtool
+[0.184s] -- Checking for required libraries...
+[0.261s] -- Found FLTK: fltk_images;fltk_forms;fltk_gl;/usr/lib/x86_64-linux-gnu/libGL.so;fltk  
+[0.263s] -- Checking for optional libraries...
+[0.263s] -- Installation path CMAKE_INSTALL_PREFIX=/home/milena/ros2_ws/install/stage
+[0.263s] -- Configuring libstage
+[0.268s] -- Checking for one of the modules 'playercore>=2.1.0'
+[0.270s] --   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.
+[0.278s] -- Configuring done
+[0.306s] -- Generating done
+[0.307s] [33mCMake Warning:
+[0.307s]   Manually-specified variables were not used by the project:
+[0.307s] 
+[0.307s]     CATKIN_SYMLINK_INSTALL
+[0.307s] 
+[0.307s] [0m
+[0.311s] -- Build files have been written to: /home/milena/ros2_ws/build/stage
+[0.314s] Invoked command in '/home/milena/ros2_ws/build/stage' returned '0': ROS_DOMAIN_ID=218 /usr/bin/cmake /home/milena/ros2_ws/src/Stage -DOpenGL_GL_PREFERENCE=LEGACY -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/milena/ros2_ws/install/stage
+[0.316s] Invoking command in '/home/milena/ros2_ws/build/stage': ROS_DOMAIN_ID=218 /usr/bin/cmake --build /home/milena/ros2_ws/build/stage -- -j12 -l12
+[0.365s] [35m[1mConsolidate compiler generated dependencies of target stage[0m
+[0.391s] [  1%] [32m[1mLinking CXX shared library libstage.so[0m
+[0.506s] [ 57%] Built target stage
+[0.519s] [35m[1mConsolidate compiler generated dependencies of target stagebinary[0m
+[0.519s] [35m[1mConsolidate compiler generated dependencies of target sink[0m
+[0.519s] [35m[1mConsolidate compiler generated dependencies of target source[0m
+[0.519s] [35m[1mConsolidate compiler generated dependencies of target dynamic[0m
+[0.519s] [35m[1mConsolidate compiler generated dependencies of target wander[0m
+[0.520s] [35m[1mConsolidate compiler generated dependencies of target fasr[0m
+[0.520s] [35m[1mConsolidate compiler generated dependencies of target lasernoise[0m
+[0.520s] [35m[1mConsolidate compiler generated dependencies of target pioneer_flocking[0m
+[0.526s] [35m[1mConsolidate compiler generated dependencies of target expand_swarm[0m
+[0.526s] [35m[1mConsolidate compiler generated dependencies of target rasterize[0m
+[0.526s] [35m[1mConsolidate compiler generated dependencies of target expand_pioneer[0m
+[0.526s] [ 59%] [32m[1mLinking CXX shared module sink.so[0m
+[0.531s] [ 61%] [32m[1mLinking CXX executable stage[0m
+[0.532s] [35m[1mConsolidate compiler generated dependencies of target fasr2[0m
+[0.534s] [ 62%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[0.534s] [ 64%] [32m[1mLinking CXX shared module fasr.so[0m
+[0.535s] [ 66%] [32m[1mLinking CXX shared module source.so[0m
+[0.540s] [ 67%] [32m[1mLinking CXX shared module wander.so[0m
+[0.540s] [ 69%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[0.540s] [ 71%] [32m[1mLinking CXX shared module dynamic.so[0m
+[0.541s] [ 72%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[0.543s] [ 74%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[0.544s] [ 76%] [32m[1mLinking CXX shared module rasterize.so[0m
+[0.553s] [ 77%] [32m[1mLinking CXX shared module fasr2.so[0m
+[0.733s] /usr/bin/ld: libstage.so.4.3.0: undefined reference to `Fl_Text_Buffer::Fl_Text_Buffer(int)'
+[0.736s] [ 79%] Built target dynamic
+[0.736s] /usr/bin/ld: libstage.so.4.3.0: undefined reference to `gl_draw(char const*, int, int, int, int, Fl_Align)'
+[0.740s] [ 81%] Built target source
+[0.740s] [ 83%] Built target pioneer_flocking
+[0.741s] /usr/bin/ld: libstage.so.4.3.0: undefined reference to `fl_height()'
+[0.743s] [ 84%] Built target sink
+[0.744s] collect2: error: ld returned 1 exit status
+[0.746s] [ 86%] Built target expand_swarm
+[0.747s] gmake[2]: *** [libstage/CMakeFiles/stagebinary.dir/build.make:119: libstage/stage] Error 1
+[0.747s] gmake[1]: *** [CMakeFiles/Makefile2:291: libstage/CMakeFiles/stagebinary.dir/all] Error 2
+[0.748s] gmake[1]: *** Waiting for unfinished jobs....
+[0.755s] [ 88%] Built target rasterize
+[0.767s] [ 89%] Built target fasr
+[0.769s] [ 91%] Built target wander
+[0.776s] [ 94%] Built target fasr2
+[0.779s] [ 96%] Built target expand_pioneer
+[0.789s] [ 98%] Built target lasernoise
+[0.790s] gmake: *** [Makefile:166: all] Error 2

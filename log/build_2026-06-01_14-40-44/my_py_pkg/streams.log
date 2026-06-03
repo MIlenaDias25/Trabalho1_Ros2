@@ -1,0 +1,41 @@
+[0.428s] Invoking command in '/home/milena/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/milena/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/milena/ros2_ws/build/my_py_pkg/build install --record /home/milena/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.586s] running egg_info
+[0.587s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.587s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.587s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.587s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.587s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.588s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.588s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.588s] running build
+[0.589s] running build_py
+[0.589s] copying my_py_pkg/trabalho.py -> /home/milena/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.589s] copying my_py_pkg/publisher_1.py -> /home/milena/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.589s] running install
+[0.589s] running install_lib
+[0.589s] copying /home/milena/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/trabalho.py -> /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.590s] copying /home/milena/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/publisher_1.py -> /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.590s] byte-compiling /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/trabalho.py to trabalho.cpython-310.pyc
+[0.590s] byte-compiling /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/publisher_1.py to publisher_1.cpython-310.pyc
+[0.590s]   File "/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/trabalho.py", line 1
+[0.590s]     ```python
+[0.590s]     ^
+[0.590s] SyntaxError: invalid syntax
+[0.590s] 
+[0.591s] running install_data
+[0.591s] running install_egg_info
+[0.592s] removing '/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.592s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.592s] running install_scripts
+[0.606s] Installing add_two_ints script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.606s] Installing add_two_ints_client script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.606s] Installing number_publisher script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.606s] Installing publisher script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.606s] Installing publisher_1 script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing py_node script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing robot_navigator script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing robot_navigator_completo script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing subscriber script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] Installing trabalho script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.607s] writing list of installed files to '/home/milena/ros2_ws/build/my_py_pkg/install.log'
+[0.623s] Invoked command in '/home/milena/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/milena/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/milena/ros2_ws/build/my_py_pkg/build install --record /home/milena/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

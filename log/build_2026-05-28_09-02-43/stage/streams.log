@@ -1,0 +1,55 @@
+[0.175s] Invoking command in '/home/milena/ros2_ws/build/stage': ROS_DOMAIN_ID=223 /usr/bin/cmake --build /home/milena/ros2_ws/build/stage -- -j12 -l12
+[0.193s] -- Stage version 4.3.0
+[0.194s] -- Operating system is Linux
+[0.194s] -- Installing Libraries to /home/milena/ros2_ws/install/stage/lib
+[0.194s] -- Installing Plugins to /home/milena/ros2_ws/install/stage/lib/Stage-4.3
+[0.194s] -- Build type RELEASE
+[0.194s] -- Checking for libtool
+[0.194s] -- Checking for required libraries...
+[0.240s] -- Checking for optional libraries...
+[0.240s] -- Installation path CMAKE_INSTALL_PREFIX=/home/milena/ros2_ws/install/stage
+[0.240s] -- Configuring libstage
+[0.247s] -- Checking for one of the modules 'playercore>=2.1.0'
+[0.249s] --   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.
+[0.256s] -- Configuring done
+[0.282s] -- Generating done
+[0.287s] -- Build files have been written to: /home/milena/ros2_ws/build/stage
+[0.311s] [35m[1mConsolidate compiler generated dependencies of target stage[0m
+[0.338s] [  1%] [32m[1mLinking CXX shared library libstage.so[0m
+[0.453s] [ 57%] Built target stage
+[0.463s] [35m[1mConsolidate compiler generated dependencies of target sink[0m
+[0.463s] [35m[1mConsolidate compiler generated dependencies of target source[0m
+[0.463s] [35m[1mConsolidate compiler generated dependencies of target fasr[0m
+[0.464s] [35m[1mConsolidate compiler generated dependencies of target wander[0m
+[0.465s] [35m[1mConsolidate compiler generated dependencies of target stagebinary[0m
+[0.465s] [35m[1mConsolidate compiler generated dependencies of target rasterize[0m
+[0.466s] [35m[1mConsolidate compiler generated dependencies of target lasernoise[0m
+[0.470s] [35m[1mConsolidate compiler generated dependencies of target expand_pioneer[0m
+[0.471s] [35m[1mConsolidate compiler generated dependencies of target pioneer_flocking[0m
+[0.471s] [35m[1mConsolidate compiler generated dependencies of target dynamic[0m
+[0.471s] [35m[1mConsolidate compiler generated dependencies of target fasr2[0m
+[0.477s] [ 61%] [32m[1mLinking CXX executable stage[0m
+[0.478s] [ 61%] [32m[1mLinking CXX shared module source.so[0m
+[0.478s] [35m[1mConsolidate compiler generated dependencies of target expand_swarm[0m
+[0.478s] [ 62%] [32m[1mLinking CXX shared module fasr.so[0m
+[0.481s] [ 66%] [32m[1mLinking CXX shared module rasterize.so[0m
+[0.482s] [ 66%] [32m[1mLinking CXX shared module sink.so[0m
+[0.482s] [ 67%] [32m[1mLinking CXX shared module wander.so[0m
+[0.482s] [ 69%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[0.482s] [ 71%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[0.486s] [ 74%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[0.486s] [ 74%] [32m[1mLinking CXX shared module fasr2.so[0m
+[0.488s] [ 76%] [32m[1mLinking CXX shared module dynamic.so[0m
+[0.492s] [ 77%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[0.657s] [ 79%] Built target source
+[0.667s] [ 81%] Built target fasr
+[0.668s] [ 83%] Built target wander
+[0.672s] [ 84%] Built target pioneer_flocking
+[0.679s] [ 86%] Built target sink
+[0.682s] [ 88%] Built target stagebinary
+[0.682s] [ 89%] Built target lasernoise
+[0.683s] [ 91%] Built target expand_pioneer
+[0.698s] [ 93%] Built target dynamic
+[0.708s] [ 94%] Built target expand_swarm
+[0.709s] [ 96%] Built target rasterize
+[0.713s] [100%] Built target fasr2

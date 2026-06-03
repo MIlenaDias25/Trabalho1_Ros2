@@ -1,0 +1,14 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_SYMLINK_INSTALL
+
+[0m
+/usr/bin/ld: libstage.so.4.3.0: undefined reference to `Fl_Text_Buffer::Fl_Text_Buffer(int)'
+/usr/bin/ld: libstage.so.4.3.0: undefined reference to `gl_draw(char const*, int, int, int, int, Fl_Align)'
+/usr/bin/ld: libstage.so.4.3.0: undefined reference to `fl_height()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [libstage/CMakeFiles/stagebinary.dir/build.make:119: libstage/stage] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:291: libstage/CMakeFiles/stagebinary.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:166: all] Error 2

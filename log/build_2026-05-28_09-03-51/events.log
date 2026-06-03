@@ -1,0 +1,224 @@
+[0.000000] (-) TimerEvent: {}
+[0.000720] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000802] (-) JobUnselected: {'identifier': 'stage'}
+[0.000834] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict()}
+[0.000865] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[0.006142] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[0.006685] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/milena/ros2_ws/src/stage_ros2', '-DCMAKE_INSTALL_PREFIX=/home/milena/ros2_ws/install/stage_ros2'], 'cwd': '/home/milena/ros2_ws/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'milena'), ('LC_TIME', 'pt_BR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/milena/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/milena/ros2_ws/install/stage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/milena'), ('OLDPWD', '/home/milena'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1675'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/milena/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'milena'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/milena/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/milena/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'milena'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/milena/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/home/milena/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/milena-Nitro-ANV15-51:@/tmp/.ICE-unix/1639,unix/milena-Nitro-ANV15-51:/tmp/.ICE-unix/1639'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d4dcd663_eae1_4c46_abcd_c4f3d316c3a2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G69SP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/milena/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('ROS_DOMAIN_ID', '232'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/milena/ros2_ws/build/stage_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/milena/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/milena/ros2_ws/install/stage')]), 'shell': False}
+[0.020790] (stage_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099974] (-) TimerEvent: {}
+[0.125816] (stage_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.130772] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.148815] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.150411] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.154132] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.160120] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.167811] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.188167] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.188926] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200180] (-) TimerEvent: {}
+[0.252865] (stage_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.283940] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.295500] (stage_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.300411] (-) TimerEvent: {}
+[0.313805] (stage_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.329536] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.390664] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.400506] (-) TimerEvent: {}
+[0.401574] (stage_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.402711] (stage_ros2) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.402772] (stage_ros2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.405116] (stage_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.418958] (stage_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.492001] (stage_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.492257] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/milena/ros2_ws/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/milena/ros2_ws/src/stage_ros2/include>\n'}
+[0.492327] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.492881] (stage_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.493695] (stage_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.494096] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.496301] (stage_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.496412] (stage_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.496869] (stage_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.498055] (stage_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.500610] (-) TimerEvent: {}
+[0.512545] (stage_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.516494] (stage_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/milena/ros2_ws/build/stage_ros2\n'}
+[0.521865] (stage_ros2) CommandEnded: {'returncode': 0}
+[0.522509] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[0.523365] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/milena/ros2_ws/build/stage_ros2', '--', '-j12', '-l12'], 'cwd': '/home/milena/ros2_ws/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'milena'), ('LC_TIME', 'pt_BR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/milena/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/milena/ros2_ws/install/stage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/milena'), ('OLDPWD', '/home/milena'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1675'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/milena/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'milena'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/milena/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/milena/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'milena'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/milena/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/home/milena/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/milena-Nitro-ANV15-51:@/tmp/.ICE-unix/1639,unix/milena-Nitro-ANV15-51:/tmp/.ICE-unix/1639'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d4dcd663_eae1_4c46_abcd_c4f3d316c3a2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G69SP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/milena/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('ROS_DOMAIN_ID', '232'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/milena/ros2_ws/build/stage_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/milena/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/milena/ros2_ws/install/stage')]), 'shell': False}
+[0.583673] (stage_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o\x1b[0m\n'}
+[0.583910] (stage_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o\x1b[0m\n'}
+[0.584011] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o\x1b[0m\n'}
+[0.585930] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o\x1b[0m\n'}
+[0.600746] (-) TimerEvent: {}
+[0.701255] (-) TimerEvent: {}
+[0.801585] (-) TimerEvent: {}
+[0.901888] (-) TimerEvent: {}
+[1.002270] (-) TimerEvent: {}
+[1.102722] (-) TimerEvent: {}
+[1.203070] (-) TimerEvent: {}
+[1.303550] (-) TimerEvent: {}
+[1.403873] (-) TimerEvent: {}
+[1.504235] (-) TimerEvent: {}
+[1.604682] (-) TimerEvent: {}
+[1.705091] (-) TimerEvent: {}
+[1.805441] (-) TimerEvent: {}
+[1.905767] (-) TimerEvent: {}
+[2.006132] (-) TimerEvent: {}
+[2.106462] (-) TimerEvent: {}
+[2.206814] (-) TimerEvent: {}
+[2.307149] (-) TimerEvent: {}
+[2.407602] (-) TimerEvent: {}
+[2.507979] (-) TimerEvent: {}
+[2.608396] (-) TimerEvent: {}
+[2.708775] (-) TimerEvent: {}
+[2.809112] (-) TimerEvent: {}
+[2.909452] (-) TimerEvent: {}
+[3.009818] (-) TimerEvent: {}
+[3.110160] (-) TimerEvent: {}
+[3.210532] (-) TimerEvent: {}
+[3.310857] (-) TimerEvent: {}
+[3.411224] (-) TimerEvent: {}
+[3.511650] (-) TimerEvent: {}
+[3.611979] (-) TimerEvent: {}
+[3.712440] (-) TimerEvent: {}
+[3.812806] (-) TimerEvent: {}
+[3.913273] (-) TimerEvent: {}
+[4.013717] (-) TimerEvent: {}
+[4.114029] (-) TimerEvent: {}
+[4.214340] (-) TimerEvent: {}
+[4.314674] (-) TimerEvent: {}
+[4.414980] (-) TimerEvent: {}
+[4.515281] (-) TimerEvent: {}
+[4.615612] (-) TimerEvent: {}
+[4.715942] (-) TimerEvent: {}
+[4.816283] (-) TimerEvent: {}
+[4.916651] (-) TimerEvent: {}
+[5.017105] (-) TimerEvent: {}
+[5.117443] (-) TimerEvent: {}
+[5.217691] (-) TimerEvent: {}
+[5.317982] (-) TimerEvent: {}
+[5.418319] (-) TimerEvent: {}
+[5.518660] (-) TimerEvent: {}
+[5.618944] (-) TimerEvent: {}
+[5.719319] (-) TimerEvent: {}
+[5.819684] (-) TimerEvent: {}
+[5.920132] (-) TimerEvent: {}
+[6.020359] (-) TimerEvent: {}
+[6.120699] (-) TimerEvent: {}
+[6.220924] (-) TimerEvent: {}
+[6.321245] (-) TimerEvent: {}
+[6.421556] (-) TimerEvent: {}
+[6.521792] (-) TimerEvent: {}
+[6.622141] (-) TimerEvent: {}
+[6.722464] (-) TimerEvent: {}
+[6.822785] (-) TimerEvent: {}
+[6.923012] (-) TimerEvent: {}
+[7.023346] (-) TimerEvent: {}
+[7.123677] (-) TimerEvent: {}
+[7.223911] (-) TimerEvent: {}
+[7.324138] (-) TimerEvent: {}
+[7.424500] (-) TimerEvent: {}
+[7.475093] (stage_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libstage_node.so\x1b[0m\n'}
+[7.524696] (-) TimerEvent: {}
+[7.624943] (-) TimerEvent: {}
+[7.725285] (-) TimerEvent: {}
+[7.825640] (-) TimerEvent: {}
+[7.925886] (-) TimerEvent: {}
+[8.026161] (-) TimerEvent: {}
+[8.120638] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[8.126257] (-) TimerEvent: {}
+[8.146317] (stage_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o\x1b[0m\n'}
+[8.226487] (-) TimerEvent: {}
+[8.326822] (-) TimerEvent: {}
+[8.427107] (-) TimerEvent: {}
+[8.527489] (-) TimerEvent: {}
+[8.627784] (-) TimerEvent: {}
+[8.728080] (-) TimerEvent: {}
+[8.828372] (-) TimerEvent: {}
+[8.928784] (-) TimerEvent: {}
+[9.029112] (-) TimerEvent: {}
+[9.129524] (-) TimerEvent: {}
+[9.229819] (-) TimerEvent: {}
+[9.330164] (-) TimerEvent: {}
+[9.430594] (-) TimerEvent: {}
+[9.530942] (-) TimerEvent: {}
+[9.631305] (-) TimerEvent: {}
+[9.731629] (-) TimerEvent: {}
+[9.831948] (-) TimerEvent: {}
+[9.932367] (-) TimerEvent: {}
+[10.032787] (-) TimerEvent: {}
+[10.133222] (-) TimerEvent: {}
+[10.233567] (-) TimerEvent: {}
+[10.333907] (-) TimerEvent: {}
+[10.434142] (-) TimerEvent: {}
+[10.505495] (stage_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stage_ros2\x1b[0m\n'}
+[10.534318] (-) TimerEvent: {}
+[10.634666] (-) TimerEvent: {}
+[10.735189] (-) TimerEvent: {}
+[10.772879] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[10.782936] (stage_ros2) CommandEnded: {'returncode': 0}
+[10.784094] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[10.794758] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/milena/ros2_ws/build/stage_ros2'], 'cwd': '/home/milena/ros2_ws/build/stage_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'milena'), ('LC_TIME', 'pt_BR.UTF-8'), ('ROS_PACKAGE_PATH', '/home/milena/ros2_ws/install/stage/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/milena/ros2_ws/install/stage/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/milena'), ('OLDPWD', '/home/milena'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1675'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/milena/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'milena'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/milena/ros2_ws/install/stage/lib/x86_64-linux-gnu/pkgconfig:/home/milena/ros2_ws/install/stage/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'milena'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/milena/ros2_ws/install/stage/bin:/opt/ros/humble/bin:/home/milena/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/milena-Nitro-ANV15-51:@/tmp/.ICE-unix/1639,unix/milena-Nitro-ANV15-51:/tmp/.ICE-unix/1639'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d4dcd663_eae1_4c46_abcd_c4f3d316c3a2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G69SP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.250'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/milena/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('ROS_DOMAIN_ID', '232'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/milena/ros2_ws/build/stage_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/milena/ros2_ws/install/my_py_pkg:/opt/ros/humble:/home/milena/ros2_ws/install/stage')]), 'shell': False}
+[10.805530] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.806138] (stage_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.806477] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[10.818550] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[10.829647] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//launch/demo.launch.py\n'}
+[10.835426] (-) TimerEvent: {}
+[10.839861] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//launch/f710.launch.py\n'}
+[10.850400] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py\n'}
+[10.861509] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py\n'}
+[10.874988] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//launch/stage.launch.py\n'}
+[10.887003] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png\n'}
+[10.897652] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm\n'}
+[10.907842] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png\n'}
+[10.917791] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png\n'}
+[10.924249] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png\n'}
+[10.935237] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm\n'}
+[10.935455] (-) TimerEvent: {}
+[10.946907] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm\n'}
+[10.957388] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm\n'}
+[10.970824] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm\n'}
+[10.981370] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave.world\n'}
+[10.991852] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_multi.world\n'}
+[11.001533] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world\n'}
+[11.012854] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world\n'}
+[11.024546] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/hallway.world\n'}
+[11.035679] (-) TimerEvent: {}
+[11.036090] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc\n'}
+[11.046426] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/robots.inc\n'}
+[11.057222] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/lines.world\n'}
+[11.067954] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/straden.world\n'}
+[11.078461] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world\n'}
+[11.088439] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz\n'}
+[11.098926] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz\n'}
+[11.109816] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz\n'}
+[11.120755] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz\n'}
+[11.132101] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz\n'}
+[11.135791] (-) TimerEvent: {}
+[11.143358] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz\n'}
+[11.154881] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz\n'}
+[11.166629] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml\n'}
+[11.177676] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/lib/libstage_node.so\n'}
+[11.188403] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[11.199721] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[11.210878] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[11.221988] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[11.232825] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[11.235880] (-) TimerEvent: {}
+[11.243923] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[11.255537] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[11.266565] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[11.278736] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[11.289733] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[11.299907] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[11.310430] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[11.319033] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[11.330312] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[11.336123] (-) TimerEvent: {}
+[11.340792] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[11.351995] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/milena/ros2_ws/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[11.365108] (stage_ros2) CommandEnded: {'returncode': 0}
+[11.382798] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[11.383344] (-) EventReactorShutdown: {}

@@ -1,0 +1,34 @@
+[0.469s] Invoking command in '/home/milena/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/milena/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/milena/ros2_ws/build/my_py_pkg/build install --record /home/milena/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.622s] running egg_info
+[0.623s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.623s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.623s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.623s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.623s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.624s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.625s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.625s] running build
+[0.625s] running build_py
+[0.625s] copying my_py_pkg/trabalho.py -> /home/milena/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.625s] running install
+[0.626s] running install_lib
+[0.626s] copying /home/milena/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/trabalho.py -> /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.627s] byte-compiling /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/trabalho.py to trabalho.cpython-310.pyc
+[0.627s] running install_data
+[0.627s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (trabalho.py, line 75)
+[0.627s] running install_egg_info
+[0.628s] removing '/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.628s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.629s] running install_scripts
+[0.643s] Installing add_two_ints script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.643s] Installing add_two_ints_client script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.643s] Installing number_publisher script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.643s] Installing publisher script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.644s] Installing publisher_1 script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.644s] Installing py_node script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.644s] Installing robot_navigator script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.644s] Installing robot_navigator_completo script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.644s] Installing subscriber script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.644s] Installing trabalho script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.644s] writing list of installed files to '/home/milena/ros2_ws/build/my_py_pkg/install.log'
+[0.662s] Invoked command in '/home/milena/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/milena/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/milena/ros2_ws/build/my_py_pkg/build install --record /home/milena/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

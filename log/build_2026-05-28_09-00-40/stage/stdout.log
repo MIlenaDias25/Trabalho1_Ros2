@@ -1,0 +1,54 @@
+-- Stage version 4.3.0
+-- Operating system is Linux
+-- Installing Libraries to /home/milena/ros2_ws/install/stage/lib
+-- Installing Plugins to /home/milena/ros2_ws/install/stage/lib/Stage-4.3
+-- Build type RELEASE
+-- Checking for libtool
+-- Checking for required libraries...
+-- Found FLTK: fltk_images;fltk_forms;fltk_gl;/usr/lib/x86_64-linux-gnu/libGL.so;fltk  
+-- Checking for optional libraries...
+-- Installation path CMAKE_INSTALL_PREFIX=/home/milena/ros2_ws/install/stage
+-- Configuring libstage
+-- Checking for one of the modules 'playercore>=2.1.0'
+--   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/milena/ros2_ws/build/stage
+[35m[1mConsolidate compiler generated dependencies of target stage[0m
+[  1%] [32m[1mLinking CXX shared library libstage.so[0m
+[ 57%] Built target stage
+[35m[1mConsolidate compiler generated dependencies of target stagebinary[0m
+[35m[1mConsolidate compiler generated dependencies of target sink[0m
+[35m[1mConsolidate compiler generated dependencies of target source[0m
+[35m[1mConsolidate compiler generated dependencies of target dynamic[0m
+[35m[1mConsolidate compiler generated dependencies of target wander[0m
+[35m[1mConsolidate compiler generated dependencies of target fasr[0m
+[35m[1mConsolidate compiler generated dependencies of target lasernoise[0m
+[35m[1mConsolidate compiler generated dependencies of target pioneer_flocking[0m
+[35m[1mConsolidate compiler generated dependencies of target expand_swarm[0m
+[35m[1mConsolidate compiler generated dependencies of target rasterize[0m
+[35m[1mConsolidate compiler generated dependencies of target expand_pioneer[0m
+[ 59%] [32m[1mLinking CXX shared module sink.so[0m
+[ 61%] [32m[1mLinking CXX executable stage[0m
+[35m[1mConsolidate compiler generated dependencies of target fasr2[0m
+[ 62%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[ 64%] [32m[1mLinking CXX shared module fasr.so[0m
+[ 66%] [32m[1mLinking CXX shared module source.so[0m
+[ 67%] [32m[1mLinking CXX shared module wander.so[0m
+[ 69%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[ 71%] [32m[1mLinking CXX shared module dynamic.so[0m
+[ 72%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[ 74%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[ 76%] [32m[1mLinking CXX shared module rasterize.so[0m
+[ 77%] [32m[1mLinking CXX shared module fasr2.so[0m
+[ 79%] Built target dynamic
+[ 81%] Built target source
+[ 83%] Built target pioneer_flocking
+[ 84%] Built target sink
+[ 86%] Built target expand_swarm
+[ 88%] Built target rasterize
+[ 89%] Built target fasr
+[ 91%] Built target wander
+[ 94%] Built target fasr2
+[ 96%] Built target expand_pioneer
+[ 98%] Built target lasernoise

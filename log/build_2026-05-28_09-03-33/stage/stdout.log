@@ -1,0 +1,165 @@
+-- Stage version 4.3.0
+-- Operating system is Linux
+-- Installing Libraries to /home/milena/ros2_ws/install/stage/lib
+-- Installing Plugins to /home/milena/ros2_ws/install/stage/lib/Stage-4.3
+-- Build type RELEASE
+-- Checking for libtool
+-- Checking for required libraries...
+-- Checking for optional libraries...
+-- Installation path CMAKE_INSTALL_PREFIX=/home/milena/ros2_ws/install/stage
+-- Configuring libstage
+-- Checking for one of the modules 'playercore>=2.1.0'
+--   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/milena/ros2_ws/build/stage
+[35m[1mConsolidate compiler generated dependencies of target stage[0m
+[ 57%] Built target stage
+[35m[1mConsolidate compiler generated dependencies of target rasterize[0m
+[35m[1mConsolidate compiler generated dependencies of target lasernoise[0m
+[35m[1mConsolidate compiler generated dependencies of target source[0m
+[35m[1mConsolidate compiler generated dependencies of target fasr[0m
+[35m[1mConsolidate compiler generated dependencies of target dynamic[0m
+[35m[1mConsolidate compiler generated dependencies of target expand_swarm[0m
+[35m[1mConsolidate compiler generated dependencies of target wander[0m
+[35m[1mConsolidate compiler generated dependencies of target stagebinary[0m
+[35m[1mConsolidate compiler generated dependencies of target pioneer_flocking[0m
+[35m[1mConsolidate compiler generated dependencies of target sink[0m
+[35m[1mConsolidate compiler generated dependencies of target expand_pioneer[0m
+[35m[1mConsolidate compiler generated dependencies of target fasr2[0m
+[ 61%] Built target rasterize
+[ 64%] Built target source
+[ 71%] Built target fasr
+[ 71%] Built target stagebinary
+[ 74%] Built target pioneer_flocking
+[ 77%] Built target wander
+[ 81%] Built target expand_swarm
+[ 84%] Built target dynamic
+[ 88%] Built target lasernoise
+[ 91%] Built target sink
+[ 94%] Built target expand_pioneer
+[100%] Built target fasr2
+-- Install configuration: "RELEASE"
+-- Installing: /home/milena/ros2_ws/install/stage/lib/pkgconfig/stage.pc
+-- Installing: /home/milena/ros2_ws/install/stage/lib/cmake/Stage/stage-config.cmake
+-- Installing: /home/milena/ros2_ws/install/stage/lib/cmake/Stage/stage-config-version.cmake
+-- Installing: /home/milena/ros2_ws/install/stage/bin/stage
+-- Set runtime path of "/home/milena/ros2_ws/install/stage/bin/stage" to ""
+-- Installing: /home/milena/ros2_ws/install/stage/lib/libstage.so.4.3.0
+-- Installing: /home/milena/ros2_ws/install/stage/lib/libstage.so
+-- Installing: /home/milena/ros2_ws/install/stage/include/Stage-4.3/stage.hh
+-- Installing: /home/milena/ros2_ws/install/stage/lib/Stage-4.3/fasr.so
+-- Set runtime path of "/home/milena/ros2_ws/install/stage/lib/Stage-4.3/fasr.so" to ""
+-- Installing: /home/milena/ros2_ws/install/stage/lib/Stage-4.3/sink.so
+-- Set runtime path of "/home/milena/ros2_ws/install/stage/lib/Stage-4.3/sink.so" to ""
+-- Installing: /home/milena/ros2_ws/install/stage/lib/Stage-4.3/source.so
+-- Set runtime path of "/home/milena/ros2_ws/install/stage/lib/Stage-4.3/source.so" to ""
+-- Installing: /home/milena/ros2_ws/install/stage/lib/Stage-4.3/wander.so
+-- Set runtime path of "/home/milena/ros2_ws/install/stage/lib/Stage-4.3/wander.so" to ""
+-- Installing: /home/milena/ros2_ws/install/stage/lib/Stage-4.3/pioneer_flocking.so
+-- Set runtime path of "/home/milena/ros2_ws/install/stage/lib/Stage-4.3/pioneer_flocking.so" to ""
+-- Installing: /home/milena/ros2_ws/install/stage/lib/Stage-4.3/rasterize.so
+-- Set runtime path of "/home/milena/ros2_ws/install/stage/lib/Stage-4.3/rasterize.so" to ""
+-- Installing: /home/milena/ros2_ws/install/stage/lib/Stage-4.3/lasernoise.so
+-- Set runtime path of "/home/milena/ros2_ws/install/stage/lib/Stage-4.3/lasernoise.so" to ""
+-- Installing: /home/milena/ros2_ws/install/stage/lib/Stage-4.3/dynamic.so
+-- Set runtime path of "/home/milena/ros2_ws/install/stage/lib/Stage-4.3/dynamic.so" to ""
+-- Installing: /home/milena/ros2_ws/install/stage/lib/Stage-4.3/fasr2.so
+-- Set runtime path of "/home/milena/ros2_ws/install/stage/lib/Stage-4.3/fasr2.so" to ""
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/assets/blue.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/assets/death.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/assets/green.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/assets/logo.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/assets/mains.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/assets/mainspower.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/assets/question_mark.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/assets/red.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/assets/stagelogo.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/assets/stall-old.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/assets/stall.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/assets/rgb.txt
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/rgb.txt
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/amcl-sonar.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/autolab.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/camera.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/everything.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/lsp_test.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/mbicp.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/nd.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/roomba.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/simple.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/test.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/vfh.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wavefront-remote.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wavefront.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wifi.cfg
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/SFU.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/autolab.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/camera.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/circuit.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/everything.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/fasr.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/fasr2.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/fasr_plan.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/large.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/lsp_test.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/mbicp.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/pioneer_flocking.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/pioneer_follow.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/pioneer_walle.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/roomba.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/sensor_noise_demo.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/sensor_noise_module_demo.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/simple.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wifi.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/beacons.inc
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/chatterbox.inc
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/hokuyo.inc
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/irobot.inc
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/map.inc
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/objects.inc
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/pantilt.inc
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/pioneer.inc
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/sick.inc
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/ubot.inc
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/uoa_robotics_lab_models.inc
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/walle.inc
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/cfggen.sh
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/test.sh
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/worldgen.sh
+-- Installing: /home/milena/ros2_ws/install/stage/lib/Stage-4.3/expand_swarm.so
+-- Set runtime path of "/home/milena/ros2_ws/install/stage/lib/Stage-4.3/expand_swarm.so" to ""
+-- Installing: /home/milena/ros2_ws/install/stage/lib/Stage-4.3/expand_pioneer.so
+-- Set runtime path of "/home/milena/ros2_ws/install/stage/lib/Stage-4.3/expand_pioneer.so" to ""
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/889_05.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/autolab.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave_compact.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/cave_filled.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/frieburg.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/ghost.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/hospital.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/hospital_section.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/human_outline.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/mbicp.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/rink.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/sal2.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/simple_rooms.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/space_invader.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/submarine.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/submarine_small.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/table.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wifi/commando.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wifi/hosp_wifi.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wifi/hosp_wifi_5.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wifi/wifi.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_itu.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_logdistance.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_ray.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wifi/wifi_simple.world
+-- Installing: /home/milena/ros2_ws/install/stage/share/stage/worlds/wifi/map.inc

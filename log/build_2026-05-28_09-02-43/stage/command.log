@@ -1,0 +1,1 @@
+Invoking command in '/home/milena/ros2_ws/build/stage': ROS_DOMAIN_ID=223 /usr/bin/cmake --build /home/milena/ros2_ws/build/stage -- -j12 -l12

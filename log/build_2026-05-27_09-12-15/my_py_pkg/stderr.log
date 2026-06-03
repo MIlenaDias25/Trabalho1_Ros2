@@ -1,0 +1,5 @@
+  File "/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_numbers_client.py", line 29
+    			self.get_logger().info(str(a)+ " + " +str(b) " = " + str(responde.sum))
+    			                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

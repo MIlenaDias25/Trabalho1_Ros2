@@ -1,0 +1,27 @@
+[0.452s] Invoking command in '/home/milena/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/milena/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/milena/ros2_ws/build/my_py_pkg/build install --record /home/milena/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.602s] running egg_info
+[0.602s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.604s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.604s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.604s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.604s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.606s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.606s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.606s] running build
+[0.606s] running build_py
+[0.607s] copying my_py_pkg/add_two_numbers.py -> /home/milena/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.607s] running install
+[0.607s] running install_lib
+[0.608s] copying /home/milena/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_numbers.py -> /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.608s] byte-compiling /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_numbers.py to add_two_numbers.cpython-310.pyc
+[0.608s] running install_data
+[0.609s] running install_egg_info
+[0.610s] removing '/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.610s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.611s] running install_scripts
+[0.624s] Installing add_two_ints script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.624s] Installing publisher script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.624s] Installing py_node script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.624s] Installing subscriber script to /home/milena/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.625s] writing list of installed files to '/home/milena/ros2_ws/build/my_py_pkg/install.log'
+[0.642s] Invoked command in '/home/milena/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/milena/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/milena/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/milena/ros2_ws/build/my_py_pkg/build install --record /home/milena/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
