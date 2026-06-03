@@ -51,12 +51,17 @@ Quando essas condições são satisfeitas, o robô retorna ao objetivo principal
 ```
 https://github.com/MIlenaDias25/Trabalho1_Ros2.git
 ```
-
-### configure o ambiente
+Acesse o diretório principal
 
 ```
-source /opt/ros/<sua_distro>/setup.bash
-source ~/ros_ws/install/setup.bash
+ros2_ws
+```
+### 2. Compile no workspace ROS2
+
+```
+cd ~/ros2_ws
+colcon build
+source install/setup.bash
 ```
 
 ### 2. Inicie o simulador Stage
