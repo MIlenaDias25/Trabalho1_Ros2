@@ -32,6 +32,7 @@ Durante o seguimento da parede, o algoritmo verifica:
 - Se está mais próximo do alvo do que estava no ponto de colisão.
 
 Quando essas condições são satisfeitas, o robô retorna ao objetivo principal.
+
 ---
 
 ## Requisitos
@@ -45,7 +46,13 @@ Quando essas condições são satisfeitas, o robô retorna ao objetivo principal
 
 ## Como executar
 
-### 1. Clone o repositório da disciplina e configure o ambiente
+### 1. Clone esse repositório
+
+```
+https://github.com/MIlenaDias25/Trabalho1_Ros2.git
+```
+
+### configure o ambiente
 
 ```
 source /opt/ros/<sua_distro>/setup.bash
