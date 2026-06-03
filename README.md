@@ -66,7 +66,7 @@ source install/setup.bash
 ros2 launch stage_ros2 stage.launch.py
 ```
 
-### 3. Execute o nodo nomeado como robot_navegador
+### 3. Execute o nodo nomeado como robot_navigator
 Em outro terminal:
 
 ```cd ~/ros2_ws
