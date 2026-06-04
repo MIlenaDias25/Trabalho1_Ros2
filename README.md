@@ -102,6 +102,6 @@ O robô iniciará automaticamente a navegação em direção ao Alvo 1 e, após 
 
 ## Vídeo de demonstração
 
-[Ver no YouTube](<INSERIR_LINK_AQUI>)
+[Ver no YouTube](<https://youtu.be/6k6Fv0RbJQo>)
 
 ---
